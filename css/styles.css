@@ -97,6 +97,10 @@
     transform-origin: right;
     transition: transform .5s ease-in-out;
 }
+#figures{
+    padding: 3rem 0rem;
+    background-color: rgb(250,250,250);
+}
 #figures-one{
     text-align: center;
     width: 60%;
@@ -146,7 +150,9 @@
     display: inline-block;
     padding: .5rem 1.45rem;
 }
-
+#figures-three button:hover{
+    background-color: rgba(209, 0, 0, .7);
+}
 
 
 
