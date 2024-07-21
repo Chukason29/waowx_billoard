@@ -96,14 +96,31 @@
     transform-origin: right;
     transition: transform .5s ease-in-out;
 }
+#figures-one{
+    text-align: center;
+    width: 60%;
+    margin-inline: auto;
+}
+#figures-one p{
+    font-family: "Jost", sans-serif;
+    margin-top: 40px;
+    font-size: 1.15rem;
+}
+#figures-two{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
 .threshholds{
     border: 1px solid black;
-    width: 12.5%;
-    padding: 1rem;
+    width: 13.5%;
+    padding: .75rem;
+    border-radius: 10px;
 }
 .threshholds h1{
     margin-bottom: 25px;
     font-family: "Josefin Sans", sans-serif;
+    font-weight: 900;
 }
 .threshholds p{
     line-height: 5px;
