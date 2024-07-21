@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0%;
@@ -96,7 +98,16 @@
 }
 .threshholds{
     border: 1px solid black;
-    width: 10%;
+    width: 12.5%;
+    padding: 1rem;
+}
+.threshholds h1{
+    margin-bottom: 25px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.threshholds p{
+    line-height: 5px;
+    font-family: "Jost", sans-serif;
 }
 
 
