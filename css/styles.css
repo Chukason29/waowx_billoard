@@ -252,3 +252,32 @@
 #footer img{
     width: 250px;
 }
+#contact-form{
+    width: 100%;
+}
+#contact-form input{
+    width: 80%;
+    margin-inline: auto;
+    display: block;
+    border: 1px solid rgb(150, 150, 150);
+    margin-top: .5rem;
+    height: 35px;
+    padding-left: 1rem;
+}
+#contact-form button{
+    margin-top: 1rem;
+    display: block;
+    border: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 80%;
+    margin-inline: auto;
+    padding-block: .5rem;
+}
+#contact-form button:hover{
+    background-color: rgb(150, 150, 150);
+}
+#loader{
+    display: none;
+}
