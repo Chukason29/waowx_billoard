@@ -6,6 +6,7 @@
 }
 #main-banner{
     position: relative;
+    font-family: "Montserrat", sans-serif;
 }
 #main-banner-img{
     height: auto;
@@ -41,8 +42,9 @@
 }
 .be-seen h3{
     background-color: rgb(211, 0, 0);
-    width: 20%;
+    width: 25%;
     margin-inline: auto;
+    font-size: 2rem;
 }
 #menu-icon{
     color: #ffffff;
@@ -91,4 +93,61 @@
     transform: scale(1, 1);
     transform-origin: right;
     transition: transform .5s ease-in-out;
+}
+.threshholds{
+    border: 1px solid black;
+    width: 10%;
+}
+
+
+
+
+
+#connect-socials{
+    display: flex;
+}
+.social-blocks{
+    width: 25%;
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.brand-title{
+    margin-top: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+.brand-title ~ p{
+    font-family: "Young Serif", serif;
+    font-size: 1.5rem;
+    padding-inline: 3rem;
+}
+.social-blocks i{
+    font-size: 2rem; 
+}
+.social-blocks a{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+.social-blocks a:hover{
+    color: rgba(199, 0, 0, 0.733);
+}
+#footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+}
+#footer > div{
+    width: 33.33%;
+}
+#footer img{
+    width: 250px;
 }
