@@ -14,7 +14,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .85);
     color: #fff;
 }
 .logo img{
@@ -33,8 +33,13 @@
     font-size: 1.75rem;
 }
 .be-seen{
-    margin-top: 10rem;
+    margin-top: 3rem;
 }
 .be-seen h1{
-    font-size: 10rem;
+    font-size: 7rem;
+}
+.be-seen h3{
+    background-color: rgb(211, 0, 0);
+    width: 25%;
+    margin-inline: auto;
 }
