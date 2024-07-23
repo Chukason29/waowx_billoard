@@ -122,7 +122,6 @@
 }
 .billboard-look-div{
     width: 25%;
-    background-color: red;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -299,14 +298,40 @@
 }
 
 @media screen and (max-width: 598px) {
+    #main-banner video{
+        display: none;
+    }
+    #main-banner-writ{
+        position: relative;
+        padding-bottom: 3rem;
+    }
+    .be-seen h1{
+        font-size: 3rem;
+    }
+    #main-banner-writ button{
+        width: 80%;
+        font-size: 1.3rem;
+    }
+    #billboard-look{
+        display: block;
+        padding-block: 0rem;
+    }
+    .billboard-look-div{
+        width: 100%;
+        margin-top: 1rem;
+    }
     #walking-image{
         display: block;
         height: auto;
+        padding-block: 2rem;
     }
     #walking-image > div{
         width: 90%;
         margin-inline: auto;
         margin-top: 1.5rem;
+    }
+    #walking-image p{
+        font-size: 3rem;
     }
     #figures{
         padding: 3rem 1rem;
