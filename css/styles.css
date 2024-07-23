@@ -150,9 +150,11 @@
     gap: 1.5rem;
     height: 80vh;
     background-image: linear-gradient(to right, rgba(255, 105, 105, 0.04), #fff);
+    overflow: hidden;
 }
 #walking-image > div{
     width: 25%;
+    overflow: hidden;
 }
 #walking-image img{
     max-width: 100%;
