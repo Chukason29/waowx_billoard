@@ -58,7 +58,7 @@
 }
 #main-banner-writ button{
     background-color: rgb(211, 0, 0);
-    width: 27%;
+    width: 32%;
     margin-inline: auto;
     font-size: 2rem;
     border: none;
@@ -147,19 +147,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     height: 80vh;
     background-image: linear-gradient(to right, rgba(255, 105, 105, 0.04), #fff);
 }
 #walking-image > div{
-    width: 26%;
+    width: 25%;
 }
 #walking-image img{
     max-width: 100%;
 }
 #walking-image p{
     font-family: "Jost" sans-serif;
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 600;
 }
 #figures{
@@ -304,6 +304,15 @@
     #main-banner-writ{
         position: relative;
         padding-bottom: 3rem;
+    }
+    .main-banner-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+    .logo img{
+        width: 140px;
     }
     .be-seen h1{
         font-size: 3rem;
