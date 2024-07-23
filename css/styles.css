@@ -150,10 +150,18 @@
     align-items: center;
     gap: 2rem;
     height: 80vh;
-    background-color: rgba(255, 105, 105, 0.04);
+    background-image: linear-gradient(to right, rgba(255, 105, 105, 0.04), #fff);
 }
 #walking-image > div{
     width: 26%;
+}
+#walking-image img{
+    max-width: 100%;
+}
+#walking-image p{
+    font-family: "Jost" sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
 }
 #figures{
     padding: 3rem 0rem;
@@ -200,7 +208,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 2.1rem;
 }
-#figures-three button{
+#figures-three button, #walking-image button{
     background-color: rgb(209, 0, 0);
     border: none;
     color: #fff;
