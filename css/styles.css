@@ -143,6 +143,11 @@
 .billboard-look-writ h1{
     font-family: "Josefin Sans", sans-serif;
 }
+
+#walking-image{
+    height: 80vh;
+    background-color: rgba(255, 105, 105, 0.04);
+}
 #figures{
     padding: 3rem 0rem;
     background-color: rgb(250,250,250);
@@ -199,11 +204,6 @@
 #figures-three button:hover{
     background-color: rgba(209, 0, 0, .7);
 }
-
-
-
-
-
 #connect-socials{
     display: flex;
 }
