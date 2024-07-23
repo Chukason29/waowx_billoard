@@ -145,8 +145,15 @@
 }
 
 #walking-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     height: 80vh;
     background-color: rgba(255, 105, 105, 0.04);
+}
+#walking-image > div{
+    width: 26%;
 }
 #figures{
     padding: 3rem 0rem;
